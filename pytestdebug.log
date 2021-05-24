@@ -1,0 +1,777 @@
+versions pytest-6.2.4, py-1.10.0, python-3.8.2.final.0
+cwd=/home/dev/othonreyes/python-template
+args=('--debug', 'src/sample/__init__.py', 'setup.py', 'src/sample/simple.py', 'tests/__init__.py')
+
+  pytest_cmdline_main [hook]
+      config: <_pytest.config.Config object at 0x7ff55990c6a0>
+    pytest_plugin_registered [hook]
+        plugin: <Session python-template exitstatus='<UNSET>' testsfailed=0 testscollected=0>
+        manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+    finish pytest_plugin_registered --> [] [hook]
+    pytest_configure [hook]
+        config: <_pytest.config.Config object at 0x7ff55990c6a0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7ff559008ac0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7ff559740550>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: faulthandler [assertion]
+      pytest_configure [hook]
+          config: <_pytest.config.Config object at 0x7ff55990c6a0>
+      finish pytest_configure --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x7ff559008e50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+    early skip of rewriting module: pdb [assertion]
+    early skip of rewriting module: cmd [assertion]
+    early skip of rewriting module: code [assertion]
+    early skip of rewriting module: codeop [assertion]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7ff55990c6a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7ff55a044b50>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_p      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/pytest_cov/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7fa62afd6610>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7fa62afb7f40>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x7fa62b78a610>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7fa62b0234c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7fa62af75cd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+    finish pytest_configure --> [] [hook]
+    pytest_sessionstart [hook]
+        session: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.config.Config object at 0x7fa62b9596a0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.mark' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/mark/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.main' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/main.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.runner' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/runner.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.fixtures' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/fixtures.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.helpconfig' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/helpconfig.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.python' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/python.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.terminal' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/terminal.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.debugging' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/debugging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unittest' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/unittest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.capture' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/capture.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.skipping' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/skipping.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.tmpdir' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/tmpdir.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.monkeypatch' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/monkeypatch.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.recwarn' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/recwarn.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.pastebin' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/pastebin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.nose' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/nose.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.assertion' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/assertion/__init__.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.junitxml' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/junitxml.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.doctest' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/doctest.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.cacheprovider' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/cacheprovider.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.freeze_support' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/freeze_support.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setuponly' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/setuponly.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.setupplan' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/setupplan.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.stepwise' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/stepwise.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.warnings' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/warnings.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.logging' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/logging.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.reports' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/reports.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.unraisableexception' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/unraisableexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.threadexception' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/threadexception.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module '_pytest.faulthandler' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/faulthandler.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <module 'pytest_cov.plugin' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/pytest_cov/plugin.py'>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <CaptureManager _method='fd' _global_capturing=<MultiCapture out=<FDCapture 1 oldfd=5 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=6 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> err=<FDCapture 2 oldfd=7 _state='suspended' tmpfile=<_io.TextIOWrapper name="<_io.FileIO name=8 mode='rb+' closefd=True>" mode='r+' encoding='utf-8'>> in_=<FDCapture 0 oldfd=3 _state='started' tmpfile=<_io.TextIOWrapper name='/dev/null' mode='r' encoding='UTF-8'>> _state='suspended' _in_suspended=False> _capture_fixture=None>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.LFPlugin object at 0x7fa62afd6610>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.cacheprovider.NFPlugin object at 0x7fa62afb7f40>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.faulthandler.FaultHandlerHooks object at 0x7fa62b78a610>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.terminal.TerminalReporter object at 0x7fa62b0234c0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.logging.LoggingPlugin object at 0x7fa62af75cd0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_plugin_registered [hook]
+          plugin: <_pytest.fixtures.FixtureManager object at 0x7fa62afd64f0>
+          manager: <_pytest.config.PytestPluginManager object at 0x7fa62c0917f0>
+      finish pytest_plugin_registered --> [] [hook]
+      pytest_report_header [hook]
+          config: <_pytest.config.Config object at 0x7fa62b9596a0>
+          startdir: /home/dev/othonreyes/python-template
+      early skip of rewriting module: email.parser [assertion]
+      early skip of rewriting module: email.feedparser [assertion]
+      early skip of rewriting module: email.errors [assertion]
+      early skip of rewriting module: email._policybase [assertion]
+      early skip of rewriting module: email.header [assertion]
+      early skip of rewriting module: email.quoprimime [assertion]
+      early skip of rewriting module: email.base64mime [assertion]
+      early skip of rewriting module: base64 [assertion]
+      early skip of rewriting module: email.charset [assertion]
+      early skip of rewriting module: email.encoders [assertion]
+      early skip of rewriting module: quopri [assertion]
+      early skip of rewriting module: email.utils [assertion]
+      early skip of rewriting module: email._parseaddr [assertion]
+      early skip of rewriting module: calendar [assertion]
+      early skip of rewriting module: email.message [assertion]
+      early skip of rewriting module: uu [assertion]
+      early skip of rewriting module: email._encoded_words [assertion]
+      early skip of rewriting module: email.iterators [assertion]
+      finish pytest_report_header --> [['rootdir: /home/dev/othonreyes/python-template, configfile: setup.cfg', 'plugins: cov-2.12.0'], ['using: pytest-6.2.4 pylib-1.10.0', 'setuptools registered plugins:', '  pytest-cov-2.12.0 at /home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/pytest_cov/plugin.py']] [hook]
+    finish pytest_sessionstart --> [] [hook]
+    pytest_collection [hook]
+        session: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+    perform_collect <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0> ['tests/test_simple.py'] [collection]
+        pytest_collectstart [hook]
+            collector: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        finish pytest_collectstart --> [] [hook]
+        pytest_make_collect_report [hook]
+            collector: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+        processing argument (local('/home/dev/othonreyes/python-template/tests/test_simple.py'), []) [collection]
+            pytest_ignore_collect [hook]
+                path: /home/dev/othonreyes/python-template/tests/__init__.py
+                config: <_pytest.config.Config object at 0x7fa62b9596a0>
+            finish pytest_ignore_collect --> None [hook]
+            pytest_collect_file [hook]
+                path: /home/dev/othonreyes/python-template/tests/__init__.py
+                parent: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              pytest_pycollect_makemodule [hook]
+                  path: /home/dev/othonreyes/python-template/tests/__init__.py
+                  parent: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+              finish pytest_pycollect_makemodule --> <Package tests> [hook]
+            finish pytest_collect_file --> [<Package tests>] [hook]
+            pytest_collect_file [hook]
+                path: /home/dev/othonreyes/python-template/tests/test_simple.py
+                parent: <Package tests>
+              pytest_pycollect_makemodule [hook]
+                  path: /home/dev/othonreyes/python-template/tests/test_simple.py
+                  parent: <Package tests>
+              finish pytest_pycollect_makemodule --> <Module test_simple.py> [hook]
+            finish pytest_collect_file --> [<Module test_simple.py>] [hook]
+          matchnodes [<Module test_simple.py>] [] [collection]
+            matchnodes finished ->  1 nodes [collection]
+        finish pytest_make_collect_report --> <CollectReport '' lenresult=1 outcome='passed'> [hook]
+        pytest_collectreport [hook]
+            report: <CollectReport '' lenresult=1 outcome='passed'>
+        finish pytest_collectreport --> [] [hook]
+    genitems <Module test_simple.py> [collection]
+      pytest_collectstart [hook]
+          collector: <Module test_simple.py>
+      finish pytest_collectstart --> [] [hook]
+      pytest_make_collect_repor              finish pytest_pycollect_makemodule --> <Module simple.py> [hook]
+            finish pytest_collect_file --> [<Module simple.py>] [hook]
+          processing argument (local('/home/dev/othonreyes/python-template/setup.py'), []) [collection]
+              pytest_collect_file [hook]
+                  path: /home/dev/othonreyes/python-template/setup.py
+                  parent: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                pytest_pycollect_makemodule [hook]
+                    path: /home/dev/othonreyes/python-template/setup.py
+                    parent: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                finish pytest_pycollect_makemodule --> <Module setup.py> [hook]
+              finish pytest_collect_file --> [<Module setup.py>] [hook]
+            matchnodes [<Module setup.py>] [] [collection]
+              matchnodes finished ->  1 nodes [collection]
+          processing argument (local('/home/dev/othonreyes/python-template/src/sample/simple.py'), []) [collection]
+              pytest_collect_file [hook]
+                  path: /home/dev/othonreyes/python-template/src/sample/simple.py
+                  parent: <Package sample>
+                pytest_pycollect_makemodule [hook]
+                    path: /home/dev/othonreyes/python-template/src/sample/simple.py
+                    parent: <Package sample>
+                finish pytest_pycollect_makemodule --> <Module simple.py> [hook]
+              finish pytest_collect_file --> [<Module simple.py>] [hook]
+            matchnodes [<Module simple.py>] [] [collection]
+              matchnodes finished ->  1 nodes [collection]
+          processing argument (local('/home/dev/othonreyes/python-template/tests/__init__.py'), []) [collection]
+              pytest_collect_file [hook]
+                  path: /home/dev/othonreyes/python-template/tests/__init__.py
+                  parent: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                pytest_pycollect_makemodule [hook]
+                    path: /home/dev/othonreyes/python-template/tests/__init__.py
+                    parent: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=0 testscollected=0>
+                finish pytest_pycollect_makemodule --> <Package tests> [hook]
+              finish pytest_collect_file --> [<Package tests>] [hook]
+            matchnodes [<Package tests>] [] [collection]
+              matchnodes finished ->  1 nodes [collection]
+              pytest_ignore_collect [hook]
+                  path: /home/dev/othonreyes/python-template/tests/test_simple.py
+                  config: <_pytest.config.Config object at 0x7ff55990c6a0>
+              finish pytest_ignore_collect --> None [hook]
+              pytest_collect_file [hook]
+                  path: /home/dev/othonreyes/python-template/tests/test_simple.py
+                  parent: <Package tests>
+                pytest_pycollect_makemodule [hook]
+                    path: /home/dev/othonreyes/python-template/tests/test_simple.py
+                    parent: <Package tests>
+                finish pytest_pycollect_makemodule --> <Module test_simple.py> [hook]
+              finish pytest_collect_file --> [<Module test_simple.py>] [hook]
+            finish pytest_make_collect_report --> <CollectReport '' lenresult=4 outcome='passed'> [hook]
+            pytest_collectreport [hook]
+                report: <CollectReport '' lenresult=4 outcome='passed'>
+            finish pytest_collectreport --> [] [hook]
+        genitems <Module simple.py> [collection]
+          pytest_collectstart [hook]
+              collector: <Module simple.py>
+          finish pytest_collectstart --> [] [hook]
+          pytest_make_collect_report [hook]
+              collector: <Module simple.py>
+          early skip of rewriting module: sample [assertion]
+          find_module called for: sample.simple [assertion]
+          matched test file (was specified on cmdline): '/home/dev/othonreyes/python-template/src/sample/simple.py' [assertion]
+          rewriting PosixPath('/home/dev/othonreyes/python-template/src/sample/simple.py') [assertion]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module simple.py>
+                name: @py_builtins
+                obj: <module 'builtins' (built-in)>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module simple.py>
+                name: @pytest_ar
+                obj: <module '_pytest.assertion.rewrite' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module simple.py>
+                name: add_one
+                obj: <function add_one at 0x7ff558e79040>
+            finish pytest_pycollect_makeitem --> None [hook]
+          finish pytest_make_collect_report --> <CollectReport 'src/sample/simple.py' lenresult=0 outcome='passed'> [hook]
+          pytest_collectreport [hook]
+              report: <CollectReport 'src/sample/simple.py' lenresult=0 outcome='passed'>
+          finish pytest_collectreport --> [] [hook]
+        genitems <Module setup.py> [collection]
+          pytest_collectstart [hook]
+              collector: <Module setup.py>
+          finish pytest_collectstart --> [] [hook]
+          pytest_make_collect_report [hook]
+              collector: <Module setup.py>
+          find_module called for: setup [assertion]
+          matched test file (was specified on cmdline): '/home/dev/othonreyes/python-template/setup.py' [assertion]
+          rewriting PosixPath('/home/dev/othonreyes/python-template/setup.py') [assertion]
+          early skip of rewriting module: setuptools [assertion]
+          early skip of rewriting module: _distutils_hack [assertion]
+          early skip of rewriting module: _distutils_hack.override [assertion]
+          early skip of rewriting module: distutils [assertion]
+          early skip of rewriting module: distutils.core [assertion]
+          early skip of rewriting module: distutils.debug [assertion]
+          early skip of rewriting module: distutils.errors [assertion]
+          early skip of rewriting module: distutils.dist [assertion]
+          early skip of rewriting module: distutils.dist [assertion]
+          early skip of rewriting module: distutils.fancy_getopt [assertion]
+          early skip of rewriting module: getopt [assertion]
+          early skip of rewriting module: distutils.util [assertion]
+          early skip of rewriting module: distutils.dep_util [assertion]
+          early skip of rewriting module: distutils.spawn [assertion]
+          early skip of rewriting module: distutils.log [assertion]
+          early skip of rewriting module: distutils.cmd [assertion]
+          early skip of rewriting module: distutils.dir_util [assertion]
+          early skip of rewriting module: sysconfig [assertion]
+          early skip of rewriting module: distutils.file_util [assertion]
+          early skip of rewriting module: distutils.archive_util [assertion]
+          early skip of rewriting module: distutils.config [assertion]
+          early skip of rewriting module: distutils.extension [assertion]
+          early skip of rewriting module: setuptools._deprecation_warning [assertion]
+          early skip of rewriting module: setuptools.version [assertion]
+          early skip of rewriting module: pkg_resources [assertion]
+          early skip of rewriting module: pkgutil [assertion]
+          early skip of rewriting module: plistlib [assertion]
+          early skip of rewriting module: xml.parsers [assertion]
+          early skip of rewriting module: xml.parsers.expat [assertion]
+          early skip of rewriting module: pkg_resources.extern [assertion]
+          early skip of rewriting module: pkg_resources.extern.appdirs [assertion]
+          early skip of rewriting module: pkg_resources._vendor [assertion]
+          early skip of rewriting module: pkg_resources._vendor.appdirs [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging [assertion]
+          early skip of rewriting module: pkg_resources._vendor.packaging [assertion]
+          early skip of rewriting module: pkg_resources._vendor.packaging.__about__ [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging.version [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging._structures [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging._typing [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging.specifiers [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging._compat [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging.utils [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging.requirements [assertion]
+          early skip of rewriting module: pkg_resources.extern.pyparsing [assertion]
+          early skip of rewriting module: pkg_resources._vendor.pyparsing [assertion]
+          early skip of rewriting module: pkg_resources.extern.packaging.markers [assertion]
+          early skip of rewriting module: setuptools.extension [assertion]
+          early skip of rewriting module: setuptools.monkey [assertion]
+          early skip of rewriting module: distutils.filelist [assertion]
+          early skip of rewriting module: setuptools.dist [assertion]
+          early skip of rewriting module: setuptools.dist [assertion]
+          early skip of rewriting module: distutils.command [assertion]
+          early skip of rewriting module: distutils.version [assertion]
+          early skip of rewriting module: setuptools.extern [assertion]
+          early skip of rewriting module: setuptools.extern.packaging [assertion]
+          early skip of rewriting module: setuptools._vendor [assertion]
+          early skip of rewriting module: setuptools._vendor.packaging [assertion]
+          early skip of rewriting module: setuptools._vendor.packaging.__about__ [assertion]
+          early skip of rewriting module: setuptools.extern.ordered_set [assertion]
+          early skip of rewriting module: setuptools._vendor.ordered_set [assertion]
+          early skip of rewriting module: setuptools.command [assertion]
+          early skip of rewriting module: distutils.command.bdist [assertion]
+          early skip of rewriting module: setuptools.command.install_scripts [assertion]
+          early skip of rewriting module: distutils.command.install_scripts [assertion]
+          early skip of rewriting module: setuptools.windows_support [assertion]
+          early skip of rewriting module: ctypes [assertion]
+          early skip of rewriting module: _ctypes [assertion]
+          early skip of rewriting module: ctypes._endian [assertion]
+          early skip of rewriting module: setuptools.config [assertion]
+          early skip of rewriting module: setuptools.extern.packaging.version [assertion]
+          early skip of rewriting module: setuptools.extern.packaging._structures [assertion]
+          early skip of rewriting module: setuptools.extern.packaging._typing [assertion]
+          early skip of rewriting module: setuptools.extern.packaging.specifiers [assertion]
+          early skip of rewriting module: setuptools.extern.packaging._compat [assertion]
+          early skip of rewriting module: setuptools.extern.packaging.utils [assertion]
+          early skip of rewriting module: setuptools.depends [assertion]
+          early skip of rewriting module: setuptools._imp [assertion]
+          early skip of rewriting module: setuptools.py34compat [assertion]
+          early skip of rewriting module: setuptools.msvc [assertion]
+          early skip of rewriting module: distutils.msvc9compiler [assertion]
+          early skip of rewriting module: distutils.ccompiler [assertion]
+          early skip of rewriting module: winreg [assertion]
+          finish pytest_make_collect_report --> <CollectReport 'setup.py' lenresult=0 outcome='failed'> [hook]
+          pytest_exception_interact [hook]
+              node: <Module setup.py>
+              call: <CallInfo when='collect' excinfo=<ExceptionInfo SystemExit('usage: pytest [global_opts] cmd1 [cmd1_opts] [cmd2 [cmd2_opts] ...]\n   or: pytest --help [cmd1 cmd2 ...]\n   or: pytest --help-commands\n   or: pytest cmd --help\n\nerror: option --debug not recognized') tblen=3>>
+              report: <CollectReport 'setup.py' lenresult=0 outcome='failed'>
+          finish pytest_exception_interact --> [] [hook]
+          pytest_collectreport [hook]
+              report: <CollectReport 'setup.py' lenresult=0 outcome='failed'>
+          finish pytest_collectreport --> [] [hook]
+        genitems <Module simple.py> [collection]
+          pytest_collectstart [hook]
+              collector: <Module simple.py>
+          finish pytest_collectstart --> [] [hook]
+          pytest_make_collect_report [hook]
+              collector: <Module simple.py>
+            pytest_pycollect_makeitem [hook]
+                collector: <Module simple.py>
+                name: @py_builtins
+                obj: <module 'builtins' (built-in)>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module simple.py>
+                name: @pytest_ar
+                obj: <module '_pytest.assertion.rewrite' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module simple.py>
+                name: add_one
+                obj: <function add_one at 0x7ff558e79040>
+            finish pytest_pycollect_makeitem --> None [hook]
+          finish pytest_make_collect_report --> <CollectReport 'src/sample/simple.py' lenresult=0 outcome='passed'> [hook]
+          pytest_collectreport [hook]
+              report: <CollectReport 'src/sample/simple.py' lenresult=0 outcome='passed'>
+          finish pytest_collectreport --> [] [hook]
+        genitems <Module test_simple.py> [collection]
+          pytest_collectstart [hook]
+              collector: <Module test_simple.py>
+          finish pytest_collectstart --> [] [hook]
+          pytest_make_collect_report [hook]
+              collector: <Module test_simple.py>
+          early skip of rewriting module: tests [assertion]
+          find_module called for: tests.test_simple [assertion]
+          matched test file '/home/dev/othonreyes/python-template/tests/test_simple.py' [assertion]
+          rewriting PosixPath('/home/dev/othonreyes/python-template/tests/test_simple.py') [assertion]
+          early skip of rewriting module: unittest [assertion]
+          early skip of rewriting module: unittest.result [assertion]
+          early skip of rewriting module: unittest.util [assertion]
+          early skip of rewriting module: unittest.async_case [assertion]
+          early skip of rewriting module: asyncio [assertion]
+          early skip of rewriting module: asyncio.base_events [assertion]
+          early skip of rewriting module: concurrent [assertion]
+          early skip of rewriting module: concurrent.futures [assertion]
+          early skip of rewriting module: concurrent.futures._base [assertion]
+          early skip of rewriting module: ssl [assertion]
+          early skip of rewriting module: _ssl [assertion]
+          early skip of rewriting module: asyncio.constants [assertion]
+          early skip of rewriting module: asyncio.coroutines [assertion]
+          early skip of rewriting module: asyncio.base_futures [assertion]
+          early skip of rewriting module: asyncio.format_helpers [assertion]
+          early skip of rewriting module: asyncio.log [assertion]
+          early skip of rewriting module: asyncio.events [assertion]
+          early skip of rewriting module: contextvars [assertion]
+          early skip of rewriting module: _contextvars [assertion]
+          early skip of rewriting module: asyncio.exceptions [assertion]
+          early skip of rewriting module: _asyncio [assertion]
+          early skip of rewriting module: asyncio.base_tasks [assertion]
+          early skip of rewriting module: asyncio.futures [assertion]
+          early skip of rewriting module: asyncio.protocols [assertion]
+          early skip of rewriting module: asyncio.sslproto [assertion]
+          early skip of rewriting module: asyncio.transports [assertion]
+          early skip of rewriting module: asyncio.staggered [assertion]
+          early skip of rewriting module: asyncio.locks [assertion]
+          early skip of rewriting module: asyncio.tasks [assertion]
+          early skip of rewriting module: asyncio.trsock [assertion]
+          early skip of rewriting module: asyncio.runners [assertion]
+          early skip of rewriting module: asyncio.queues [assertion]
+          early skip of rewriting module: asyncio.streams [assertion]
+          early skip of rewriting module: asyncio.subprocess [assertion]
+          early skip of rewriting module: asyncio.unix_events [assertion]
+          early skip of rewriting module: asyncio.base_subprocess [assertion]
+          early skip of rewriting module: asyncio.selector_events [assertion]
+          early skip of rewriting module: unittest.case [assertion]
+          early skip of rewriting module: difflib [assertion]
+          early skip of rewriting module: unittest.suite [assertion]
+          early skip of rewriting module: unittest.loader [assertion]
+          early skip of rewriting module: unittest.main [assertion]
+          early skip of rewriting module: unittest.runner [assertion]
+          early skip of rewriting module: unittest.signals [assertion]
+          early skip of rewriting module: hello [assertion]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module test_simple.py>
+                name: @py_builtins
+                obj: <module 'builtins' (built-in)>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module test_simple.py>
+                name: @pytest_ar
+                obj: <module '_pytest.assertion.rewrite' from '/home/majinboo-vm/.local/share/virtualenvs/python-template-EiP6yTUy/lib/python3.8/site-packages/_pytest/assertion/rewrite.py'>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module test_simple.py>
+                name: unittest
+                obj: <module 'unittest' from '/usr/lib/python3.8/unittest/__init__.py'>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module test_simple.py>
+                name: hello
+                obj: <module 'hello' from '/home/dev/othonreyes/python-template/src/hello/__init__.py'>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module test_simple.py>
+                name: add_one
+                obj: <function add_one at 0x7ff558e79040>
+            finish pytest_pycollect_makeitem --> None [hook]
+            pytest_pycollect_makeitem [hook]
+                collector: <Module test_simple.py>
+                name: TestSimple
+                obj: <class 'tests.test_simple.TestSimple'>
+            finish pytest_pycollect_makeitem --> <UnitTestCase TestSimple> [hook]
+          finish pytest_make_collect_report --> <CollectReport 'tests/test_simple.py' lenresult=1 outcome='passed'> [hook]
+        genitems <UnitTestCase TestSimple> [collection]
+          pytest_collectstart [hook]
+              collector: <UnitTestCase TestSimple>
+          finish pytest_collectstart --> [] [hook]
+          pytest_make_collect_report [hook]
+              collector: <UnitTestCase TestSimple>
+          finish pytest_make_collect_report --> <CollectReport 'tests/test_simple.py::TestSimple' lenresult=2 outcome='passed'> [hook]
+        genitems <TestCaseFunction test_add_one> [collection]
+          pytest_itemcollected [hook]
+              item: <TestCaseFunction test_add_one>
+          finish pytest_itemcollected --> [] [hook]
+        genitems <TestCaseFunction test_answer> [collection]
+          pytest_itemcollected [hook]
+              item: <TestCaseFunction test_answer>
+          finish pytest_itemcollected --> [] [hook]
+          pytest_collectreport [hook]
+              report: <CollectReport 'tests/test_simple.py::TestSimple' lenresult=2 outcome='passed'>
+          finish pytest_collectreport --> [] [hook]
+          pytest_collectreport [hook]
+              report: <CollectReport 'tests/test_simple.py' lenresult=1 outcome='passed'>
+          finish pytest_collectreport --> [] [hook]
+          pytest_collection_modifyitems [hook]
+              session: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+              config: <_pytest.config.Config object at 0x7ff55990c6a0>
+              items: [<TestCaseFunction test_add_one>, <TestCaseFunction test_answer>]
+          finish pytest_collection_modifyitems --> [] [hook]
+          pytest_collection_finish [hook]
+              session: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=0>
+            pytest_report_collectionfinish [hook]
+                config: <_pytest.config.Config object at 0x7ff55990c6a0>
+                startdir: /home/dev/othonreyes/python-template
+                items: [<TestCaseFunction test_add_one>, <TestCaseFunction test_answer>]
+            finish pytest_report_collectionfinish --> [] [hook]
+          finish pytest_collection_finish --> [] [hook]
+        finish pytest_collection --> None [hook]
+        pytest_runtestloop [hook]
+            session: <Session python-template exitstatus=<ExitCode.OK: 0> testsfailed=1 testscollected=2>
+        pytest_keyboard_interrupt [hook]
+            excinfo: <ExceptionInfo Interrupted('1 error during collection') tblen=13>
+        finish pytest_keyboard_interrupt --> [] [hook]
+        pytest_sessionfinish [hook]
+            session: <Session python-template exitstatus=<ExitCode.INTERRUPTED: 2> testsfailed=1 testscollected=2>
+            exitstatus: ExitCode.INTERRUPTED
+          pytest_terminal_summary [hook]
+              terminalreporter: <_pytest.terminal.TerminalReporter object at 0x7ff558fd8400>
+              exitstatus: ExitCode.INTERRUPTED
+              config: <_pytest.config.Config object at 0x7ff55990c6a0>
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+          early skip of rewriting module: pygments [assertion]
+            pytest_report_teststatus [hook]
+                report: <CollectReport 'setup.py' lenresult=0 outcome='failed'>
+                config: <_pytest.config.Config object at 0x7ff55990c6a0>
+            finish pytest_report_teststatus --> ('error', 'E', 'ERROR') [hook]
+          finish pytest_terminal_summary --> [] [hook]
+        finish pytest_sessionfinish --> [] [hook]
+        pytest_unconfigure [hook]
+            config: <_pytest.config.Config object at 0x7ff55990c6a0>
+        finish pytest_unconfigure --> [] [hook]
